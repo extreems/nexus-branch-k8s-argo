@@ -33,9 +33,3 @@ spec:
           limits:
             memory: "512Mi"
             cpu: "500m"
-        volumeMounts:
-        - name: data
-          mountPath: /var/lib/mysql
-      volumes:
-      - name: data
-        emptyDir: {}
